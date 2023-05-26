@@ -1,0 +1,22 @@
+.header {
+    position: relative;
+    background: url('taj.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 400px;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: #fff;
+
+}
+#hello {
+    background-color: aqua;
+}
